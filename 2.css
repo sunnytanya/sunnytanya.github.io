@@ -1,0 +1,96 @@
+body {
+background: #ADD8E6;
+color: black;
+font-family: Times New Roman;
+font-size: 35px;
+font-style: italic;
+text-align: center;
+}
+ 
+#container {
+background:#ADD8E6;
+margin: 5px auto;
+width: 920px;
+height: 1500px;
+}
+ 
+#header {
+background: #FFE4B5;
+height: 150px;
+width: 780px;
+display: inline-block;
+  color: blue;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #AFEEEE #000 #E0FFFF;
+  border-radius: 20px;
+  background: linear-gradient(#AFEEEE, #E0FFFF) #E38916;
+  transition: 0.2s;
+}
+ 
+#navigation {
+background: #ADD8E6;
+width: 930px;
+height: 50px;
+}
+#button, #button:before { display: inline-block;
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 100px;
+  border: solid rgb(4,88,192);
+  border-width: 3px 10px;
+  outline: none;
+  opacity: 1;
+  transition: .6s, opacity 0s 9999999s, visibility 0s 9999999s;
+  }
+  #button {position: relative;
+  padding: calc(8px + 3px - 1px) calc(15px + 10px - 1px);
+  border: 3px solid rgb(4,88,192);
+  background:#ADD8E6;}
+  
+  #button:before { position:  absolute; 
+  bottom: -7px;
+  left: -1px;
+  width: calc(100% - (15px + 10px - 1px)*2);
+  background: #fff linear-gradient(rgb(58,160,253), rgb(4,88,192) 60%, rgb(49,112,201));
+  box-shadow: 0 10px 18px rgba(0,0,0,.5);}
+  
+  #button:hover { -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);}
+  
+  #button:hover:befor {border-color: #0766d8;
+  background: #fff linear-gradient(#3fadff, #0766d8 60%, #3279dd);}
+  
+  #button:focus, #button:active { -webkit-transform: scale(2, 2);
+  transform: scale(2, 2);
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;}
+  
+
+#content {
+background: #87CEEB;
+ width: 900px;
+height: 1300px;
+font-size: 15;
+text-align: justify;
+text-indent: 20px;
+font-style: normal;
+padding:10px;
+} 
+#clear {
+clear:both;
+}
+ 
+#footer {
+background: #ADD8E6;
+height: 200px;
+width: 900px;
+padding:20px;
+font-style: normal;
+}
